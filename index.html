@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Pendaftaran Simpelan KB</title>
+
+  </head>
+  <body id="home">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="https://simpelanpomel.github.io">Simpelan KB</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact"> Daftar</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"> Login</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <section class="jumbotron text-center">
+      <img src="img/logo-bekasi.png" alt="Logo Bekasi" width="200" class="rounded-circle img-thumbnail" />
+      <h1 class="display-4">Simpelan KB</h1>
+      <p class="lead">UPTD Pengendalian Penduduk Wilayah Pondokmelati</p>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="10"
+          d="M0,64L48,80C96,96,192,128,288,128C384,128,480,96,576,80C672,64,768,64,864,96C960,128,1056,192,1152,186.7C1248,181,1344,107,1392,69.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Jumbotron -->
+    
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center mb-3">
+          <div class="col">
+            <h2>Pendaftaran Akun Simpelan KB<br> UPTD Pengendalian Penduduk Wilayah Pondokmelati Kota Bekasi</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+
+            <form name="daftar-simpelankb">
+              <div class="mb-3">
+                <label for="name" class="form-label">Nama</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" required />
+              </div>
+			  <div class="mb-3">
+                <label for="nik" class="form-label">NIK</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="nik" required />
+              </div>
+			  <div class="mb-3">
+                <label for="tempatlahir" class="form-label">Tempat Lahir</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="tempatlahir" required />
+              </div>
+			  <div class="mb-3">
+                <label for="tanggallahir" class="form-label">Tanggal Lahir</label>
+                <input type="date" class="form-control" id="name" aria-describedby="name" name="tanggallahir" required />
+              </div>
+			  <div class="mb-3">
+                <label for="jk" class="form-label">Jenis Kelamin</label>
+                <div class="form-check">
+					<input class="form-check-input" type="radio" name="jk" id="flexRadioDefault1" value="Laki-laki" checked>
+					<label class="form-label" for="jk">
+					Laki-laki
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="jk" id="flexRadioDefault2" value="Perempuan">
+					<label class="form-label" for="jk">
+					Perempuan
+					</label>
+				</div>
+			  </div>
+			  <div class="mb-3">
+                <label for="agama" class="form-label">Agama</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="agama" required />
+              </div>
+			  <div class="mb-3">
+                <label for="status" class="form-label">Status Perkawinan</label>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="status" id="flexRadioDefault1" value="Menikah" checked>
+					<label class="form-label" for="jk">
+					Menikah
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="status" id="flexRadioDefault2" value="Belum Menikah">
+					<label class="form-label" for="jk">
+					Belum Menikah
+					</label>
+				</div>
+								<div class="form-check">
+					<input class="form-check-input" type="radio" name="status" id="flexRadioDefault1" value="Janda">
+					<label class="form-label" for="jk">
+					Janda
+					</label>
+				</div>
+				<div class="form-check">
+					<input class="form-check-input" type="radio" name="status" id="flexRadioDefault2" value="Duda">
+					<label class="form-label" for="jk">
+					Duda
+					</label>
+				</div>
+              </div>
+			  <div class="mb-3">
+                <label for="goldarah" class="form-label">Golongan Darah (Jika tidak tahu boleh dikosongkan)</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="goldarah" />
+              </div>
+			  
+			  <div class="mb-3">
+                <label for="hp" class="form-label">No. HP</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="hp" required />
+              </div>
+			  			  
+              <div class="mb-3">
+                <label for="email" class="form-label">Email (*Jika Ada)</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
+              </div>
+              <div class="mb-3">
+                <label for="alamatktp" class="form-label">Alamat</label>
+                <textarea class="form-control" id="pesan" rows="3" name="alamat" required></textarea>
+              </div>
+			  
+			  <div class="mb-3">
+                <label for="jabatan" class="form-label">Password yang ingin dibuat (Untuk Akun Simpelan KB)</label>
+                <input type="text" class="form-control" id="name" aria-describedby="name" name="password" />
+              </div>
+              <button type="submit" class="btn btn-primary btn-kirim">Daftar</button>
+
+              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+              </button>
+            </form>
+			<div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+              <strong>Terima kasih!</strong> Pendaftaran akun Simpelan KB kamu sudah berhasil. Silahkan klik Login pada menu diatas.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#0d6efd"
+          fill-opacity="10"
+          d="M0,128L30,149.3C60,171,120,213,180,224C240,235,300,213,360,192C420,171,480,149,540,160C600,171,660,213,720,197.3C780,181,840,107,900,101.3C960,96,1020,160,1080,197.3C1140,235,1200,245,1260,234.7C1320,224,1380,192,1410,176L1440,160L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- Akhir Contact -->
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center pb-5">
+      <p>Dibuat oleh <a href="https://simpelanpomel.github.io" class="text-white fw-bold">UPTD Pengendalian Penduduk Wilayah Pondokmelati</a></p>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxncbdJnM8o0sWEibzqcUGKnarSRYOj3D10Zt1kB7T_fqKtaS2ziEzLQmiFdkjOCP7a3w/exec';
+      const form = document.forms['daftar-simpelankb'];
+      const btnKirim = document.querySelector('.btn-kirim');
+      const btnLoading = document.querySelector('.btn-loading');
+      const myAlert = document.querySelector('.my-alert');
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        // ketika tombol submit diklik
+        // tampilkan tombol loading, hilangkan tombol kirim
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then((response) => {
+            // tampilkan tombol kirim, hilangkan tombol loading
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            // tampilkan alert
+            myAlert.classList.toggle('d-none');
+            // reset formnya
+            form.reset();
+            console.log('Success!', response);
+          })
+          .catch((error) => console.error('Error!', error.message));
+      });
+    </script>
+  </body>
+</html>
