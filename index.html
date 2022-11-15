@@ -72,8 +72,8 @@
                 <input type="text" class="form-control" id="name" aria-describedby="name" name="name" required />
               </div>
 			  <div class="mb-3">
-                <label for="nik" class="form-label">NIK</label>
-                <input type="text" class="form-control" id="nik" aria-describedby="name" name="nik" required />
+                <label for="id" class="form-label">NIK</label>
+                <input type="text" class="form-control" id="id" aria-describedby="name" name="id" required />
               </div>
 			  <div class="mb-3">
                 <label for="tempatlahir" class="form-label">Tempat Lahir</label>
@@ -152,6 +152,25 @@
                 <label for="password" class="form-label">Password yang ingin dibuat (Untuk Akun Simpelan KB)</label>
                 <input type="text" class="form-control" id="password" aria-describedby="password" name="password" />
               </div>
+			  
+			  <div class="mb-3">
+                <label for="role" class="form-label">Pernyataan kebenaran semua isian data diatas</label>
+				
+				<div class="form-check">
+				<input class="form-check-input" type="checkbox" name="role" id="role" value="Karyawan">
+					<label class="form-label" for="role">
+					Saya menyatakan seluruh data yang tertera pada form pendaftaran Akun Simpelan KB adalah benar.
+					</label>
+				</div>
+				
+				<div class="form-check">
+				<input class="form-check-input" type="checkbox" name="title" id="title" value="Karyawan">
+					<label class="form-label" for="title">
+					Saya menyatakan seluruh data yang tertera pada form pendaftaran Akun Simpelan KB diperkenankan untuk digunakan dalam aktivitas pada Simpelan KB.
+					</label>
+				</div>
+				
+              </div>
               <button type="submit" class="btn btn-primary btn-kirim">Daftar</button>
 
               <button class="btn btn-primary btn-loading d-none" type="button" disabled>
@@ -178,7 +197,7 @@
 
     <!-- Footer -->
     <footer class="bg-primary text-white text-center pb-5">
-      <p>Dibuat oleh <a href="https://simpelanpomel.github.io" class="text-white fw-bold">UPTD Pengendalian Penduduk Wilayah Pondokmelati</a></p>
+      <p>Designed by <a href="https://simpelanpomel.github.io" class="text-white fw-bold">UPTD Pengendalian Penduduk Wilayah Pondokmelati</a></p>
     </footer>
     <!-- Akhir Footer -->
 
