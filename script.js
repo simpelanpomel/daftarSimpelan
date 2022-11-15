@@ -188,5 +188,8 @@ $(document).ready(function() {
 		
     if (delta > 0 || e.originalEvent.detail < 0) navigateLeft();
 	 	if (delta < 0 || e.originalEvent.detail > 0) navigateRight();
-  });
+  }); 
 });
+
+
+
